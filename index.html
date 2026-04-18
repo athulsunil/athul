@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athul | Digital Marketer</title>
+    <meta name="description" content="Portfolio of Athul, a Digital Marketer specializing in Branding, Performance Marketing, and SEO.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            100: '#e0e7ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            900: '#312e81',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold text-slate-900 tracking-tight">Athul<span class="text-brand-600">.</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-slate-600 hover:text-brand-600 transition-colors font-medium">About</a>
+                    <a href="#skills" class="text-slate-600 hover:text-brand-600 transition-colors font-medium">Skills</a>
+                    <a href="#services" class="text-slate-600 hover:text-brand-600 transition-colors font-medium">Services</a>
+                    <a href="#portfolio" class="text-slate-600 hover:text-brand-600 transition-colors font-medium">Portfolio</a>
+                    <a href="#contact" class="text-slate-600 hover:text-brand-600 transition-colors font-medium">Contact</a>
+                </div>
+                <!-- Mobile menu placeholder -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-slate-600 hover:text-slate-900 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden min-h-screen flex items-center">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 bg-gradient-to-br from-brand-50 to-white -z-10"></div>
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-brand-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+        <div class="absolute top-0 left-0 -mt-20 -ml-20 w-72 h-72 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
+                <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl tracking-tight font-bold text-slate-900 mb-4" style="font-family: 'Alan Sans', sans-serif;">
+                        Best Digital Marketing Freelancer in Calicut
+                    </h1>
+                    <h2 class="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl lg:text-6xl">
+                        Hi, I’m <span class="text-brand-600">Athul</span>
+                    </h2>
+                    <p class="mt-3 text-base text-slate-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl font-medium">
+                        Digital Marketer | Branding | Performance Marketing
+                    </p>
+                    <p class="mt-4 text-slate-500 text-lg">
+                        I help ambitious brands grow through data-driven performance marketing, creative strategies, and compelling content. Let's elevate your digital presence.
+                    </p>
+                    <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0 flex flex-col sm:flex-row gap-4">
+                        <a href="#portfolio" class="inline-flex justify-center items-center px-8 py-3 border border-transparent text-base font-medium rounded-lg shadow-sm text-white bg-brand-600 hover:bg-brand-500 hover:shadow-lg transition-all duration-300">
+                            View My Work
+                        </a>
+                        <a href="#contact" class="inline-flex justify-center items-center px-8 py-3 border border-slate-300 text-base font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 hover:border-slate-400 transition-all duration-300">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                    <div class="relative mx-auto w-full rounded-2xl shadow-2xl lg:max-w-md overflow-hidden transform hover:scale-[1.02] transition-transform duration-500 border border-slate-100">
+                        <img class="w-full object-cover h-[500px]" src="image/Athul-Coralbees-rk99x2j1km656395bk8ugyrshg1q6sjie3r2y5a13k.webp" alt="Athul - Digital Marketer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="relative hidden lg:block">
+                    <div class="aspect-w-3 aspect-h-4 rounded-2xl overflow-hidden shadow-xl transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Working on digital marketing strategy" class="object-cover h-full w-full">
+                    </div>
+                    <!-- Decorative element -->
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-slate-100 rounded-full -z-10"></div>
+                </div>
+                <div class="mt-10 lg:mt-0">
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl mb-6">
+                        About Me
+                    </h2>
+                    <div class="w-20 h-1 bg-brand-600 mb-8 rounded-full"></div>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        I am a passionate digital marketer dedicated to helping brands scale their online presence. With a deep understanding of consumer psychology and data analytics, I craft strategies that not only look good but deliver measurable results.
+                    </p>
+                    <p class="text-lg text-slate-600 leading-relaxed mb-8">
+                        Whether it's managing high-performing ad campaigns, developing a comprehensive brand identity, or creating engaging content strategies, my goal is to connect your business with the right audience at the right time.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6 pt-6 border-t border-slate-100">
+                        <div>
+                            <p class="text-4xl font-bold text-brand-600">5+</p>
+                            <p class="mt-1 text-slate-500 font-medium">Years Experience</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-bold text-brand-600">50+</p>
+                            <p class="mt-1 text-slate-500 font-medium">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">Core Skills</h2>
+                <div class="w-20 h-1 bg-brand-600 mx-auto mt-6 rounded-full"></div>
+                <p class="mt-6 text-xl text-slate-500">The tools and methodologies I use to drive growth.</p>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-4">
+                <!-- Skill Badges -->
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-hashtag text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">Social Media Marketing</span>
+                </div>
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-chart-line text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">Performance Ads</span>
+                </div>
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-copyright text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">Branding</span>
+                </div>
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-pen-nib text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">Content Strategy</span>
+                </div>
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-magnifying-glass text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">SEO</span>
+                </div>
+                <div class="px-6 py-3 bg-white border border-slate-200 rounded-full shadow-sm hover:shadow-md hover:border-brand-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2 cursor-default">
+                    <i class="fa-solid fa-filter text-brand-500"></i>
+                    <span class="font-semibold text-slate-700">Lead Generation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">My Services</h2>
+                <div class="w-20 h-1 bg-brand-600 mx-auto mt-6 rounded-full"></div>
+                <p class="mt-6 text-xl text-slate-500">Comprehensive digital solutions to elevate your brand.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-share-nodes text-2xl text-brand-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Social Media Management</h3>
+                    <p class="text-slate-600 leading-relaxed">Building vibrant communities and engaging audiences across platforms with tailored content and consistent brand messaging.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-bullseye text-2xl text-brand-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Paid Advertising</h3>
+                    <p class="text-slate-600 leading-relaxed">Data-driven ROAS-focused campaigns across Meta, Google, and LinkedIn networks to drive high-quality traffic and conversions.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-lightbulb text-2xl text-brand-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Branding & Creative Strategy</h3>
+                    <p class="text-slate-600 leading-relaxed">Crafting unique brand identities, voice, and visual aesthetics that resonate with your target demographic and stand out.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-shadow duration-300 group">
+                    <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-filter text-2xl text-brand-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Funnel & Lead Generation</h3>
+                    <p class="text-slate-600 leading-relaxed">Designing optimized landing pages and email funnels that turn casual visitors into loyal, paying customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">Featured Work</h2>
+                <div class="w-20 h-1 bg-brand-600 mx-auto mt-6 rounded-full"></div>
+                <p class="mt-6 text-xl text-slate-500">A glimpse into recent successful campaigns.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group cursor-pointer border border-slate-100">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="E-commerce Campaign" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="text-white font-medium px-4 py-2 border border-white rounded-full">View Details</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-brand-600 font-semibold mb-2">Performance Ads</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">E-commerce Scaling</h3>
+                        <p class="text-slate-600 text-sm">Achieved a 350% ROAS for a lifestyle apparel brand within 3 months.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group cursor-pointer border border-slate-100">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tech Startup Branding" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="text-white font-medium px-4 py-2 border border-white rounded-full">View Details</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-brand-600 font-semibold mb-2">Branding & Strategy</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">SaaS Product Launch</h3>
+                        <p class="text-slate-600 text-sm">Developed go-to-market strategy resulting in 10k+ waitlist signups.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group cursor-pointer border border-slate-100">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="B2B Lead Generation" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="text-white font-medium px-4 py-2 border border-white rounded-full">View Details</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-brand-600 font-semibold mb-2">Lead Generation</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">B2B Funnel Optimization</h3>
+                        <p class="text-slate-600 text-sm">Reduced Cost-Per-Lead by 40% using optimized LinkedIn outreach.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">Client Feedback</h2>
+                <div class="w-20 h-1 bg-brand-600 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100 hover:shadow-lg transition-shadow duration-300">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-200 absolute top-6 left-6"></i>
+                    <div class="relative z-10">
+                        <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic mb-6">"Athul completely transformed our online presence. His strategic approach to Facebook ads doubled our sales in just two months. Highly recommended!"</p>
+                        <div class="flex items-center">
+                            <img class="h-12 w-12 rounded-full object-cover" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Sarah J.">
+                            <div class="ml-4">
+                                <h4 class="text-sm font-bold text-slate-900">Sarah Jenkins</h4>
+                                <p class="text-sm text-slate-500">Founder, EcoStyle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100 hover:shadow-lg transition-shadow duration-300">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-200 absolute top-6 left-6"></i>
+                    <div class="relative z-10">
+                        <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic mb-6">"Brilliant mind for marketing. He doesn't just run ads; he understands the entire customer journey and optimizes every touchpoint."</p>
+                        <div class="flex items-center">
+                            <img class="h-12 w-12 rounded-full object-cover" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Michael T.">
+                            <div class="ml-4">
+                                <h4 class="text-sm font-bold text-slate-900">Michael Torres</h4>
+                                <p class="text-sm text-slate-500">CMO, TechFlow SaaS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100 hover:shadow-lg transition-shadow duration-300">
+                    <i class="fa-solid fa-quote-left text-4xl text-brand-200 absolute top-6 left-6"></i>
+                    <div class="relative z-10">
+                        <div class="flex items-center space-x-1 text-yellow-400 mb-4">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic mb-6">"Professional, data-driven, and creative. Athul's branding strategy gave us the edge we needed to stand out in a crowded market."</p>
+                        <div class="flex items-center">
+                            <img class="h-12 w-12 rounded-full object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Emma W.">
+                            <div class="ml-4">
+                                <h4 class="text-sm font-bold text-slate-900">Emma Watson</h4>
+                                <p class="text-sm text-slate-500">Director, Apex Consult</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Background accents -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-72 h-72 bg-brand-600 rounded-full mix-blend-screen filter blur-3xl opacity-20"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-indigo-500 rounded-full mix-blend-screen filter blur-3xl opacity-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16">
+                <div>
+                    <h2 class="text-3xl font-extrabold sm:text-4xl mb-6">Let's work together</h2>
+                    <p class="text-lg text-slate-300 mb-8 max-w-md">
+                        Ready to take your digital presence to the next level? Drop me a message and let's discuss how we can achieve your business goals.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center group cursor-pointer">
+                            <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center mr-4 group-hover:bg-brand-600 transition-colors duration-300">
+                                <i class="fa-solid fa-envelope text-brand-400 group-hover:text-white transition-colors duration-300 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-400">Email</p>
+                                <p class="font-medium group-hover:text-brand-400 transition-colors duration-300">hello@athul.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center group cursor-pointer">
+                            <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center mr-4 group-hover:bg-brand-600 transition-colors duration-300">
+                                <i class="fa-brands fa-linkedin text-brand-400 group-hover:text-white transition-colors duration-300 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-400">LinkedIn</p>
+                                <p class="font-medium group-hover:text-brand-400 transition-colors duration-300">linkedin.com/in/athul</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center group cursor-pointer">
+                            <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center mr-4 group-hover:bg-brand-600 transition-colors duration-300">
+                                <i class="fa-brands fa-instagram text-brand-400 group-hover:text-white transition-colors duration-300 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-slate-400">Instagram</p>
+                                <p class="font-medium group-hover:text-brand-400 transition-colors duration-300">@athul.digital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 lg:mt-0">
+                    <div class="bg-slate-800/50 backdrop-blur-sm p-8 rounded-2xl border border-slate-700">
+                        <form action="#" method="POST" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-slate-300">Name</label>
+                                <div class="mt-1">
+                                    <input type="text" name="name" id="name" class="py-3 px-4 block w-full bg-slate-900 border-slate-700 rounded-lg text-white shadow-sm focus:ring-brand-500 focus:border-brand-500 outline-none transition-colors border" placeholder="John Doe">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-slate-300">Email</label>
+                                <div class="mt-1">
+                                    <input type="email" name="email" id="email" class="py-3 px-4 block w-full bg-slate-900 border-slate-700 rounded-lg text-white shadow-sm focus:ring-brand-500 focus:border-brand-500 outline-none transition-colors border" placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-slate-300">Message</label>
+                                <div class="mt-1">
+                                    <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full bg-slate-900 border-slate-700 rounded-lg text-white shadow-sm focus:ring-brand-500 focus:border-brand-500 outline-none transition-colors border resize-none" placeholder="How can I help you?"></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-lg text-white bg-brand-600 hover:bg-brand-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500 focus:ring-offset-slate-900 transition-colors">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 py-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-xl font-bold text-white tracking-tight mb-4 md:mb-0">
+                Athul<span class="text-brand-500">.</span>
+            </div>
+            <p class="text-slate-400 text-sm">
+                &copy; <span id="year"></span> Athul. All rights reserved.
+            </p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                    <span class="sr-only">LinkedIn</span>
+                    <i class="fa-brands fa-linkedin text-xl"></i>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                    <span class="sr-only">Instagram</span>
+                    <i class="fa-brands fa-instagram text-xl"></i>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                    <span class="sr-only">Twitter</span>
+                    <i class="fa-brands fa-twitter text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
